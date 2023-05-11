@@ -1,0 +1,22 @@
+version: '3.9'
+services:
+    server:
+        container_name: server
+        build: ./server
+        ports:
+            - '8080:8080'
+        depends_on:
+            - database
+    client:
+        container_name: client
+        build: ./client
+        ports:
+            - '3000:3000'
+    # environment:
+    #     - EXPRESS_SERVER_URL=http://server:8080
+    database:
+        container_name: mongodb
+        image: mongo:5.0.15
+        ports:
+            - '27017:27017'
+        restart: always
