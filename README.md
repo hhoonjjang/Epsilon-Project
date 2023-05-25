@@ -82,6 +82,7 @@ flowchart LR
     <img src="https://img.shields.io/badge/OpenZeppelin-4E5EE4?logo=OpenZeppelin&logoColor=fff&style=for-the-badge" />
     <img src="https://img.shields.io/badge/Truffle-F2EDE7?style=for-the-badge" />
     <img src="https://img.shields.io/badge/Ganache-FF9900?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
 </div>
 
 ### ETC
